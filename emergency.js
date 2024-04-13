@@ -4,7 +4,7 @@ function handleEmergency() {
     var confirmCall = confirm("Are you sure you want to call the emergency number 8450076426?");
     // If the user confirms, open the dial pad with the number filled in
     if (confirmCall) {
-        window.location.href = "tel:122";
+        window.location.href = "tel:8450076426";
     }
     // Get user's current location
     if (navigator.geolocation) {
